@@ -1,0 +1,329 @@
+body {
+    padding-top: 4%; /* ปรับตามขนาดความสูงของ header ของคุณ */
+  }
+
+  html {
+    scroll-padding-top: 70px; /* ปรับตามขนาดความสูงของ header ของคุณ */
+  }
+
+
+
+
+
+  
+/* Basic Styles for Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #f0f8ff;
+    color: white;
+    text-align: left;
+    padding: 10px 0;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+    background-color: #333;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: #4CAF50;
+}
+
+main p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #7b7272;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+.search-container {
+    margin: 20px;
+}
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    padding: 8px;
+    background: #f2f2f2;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+li.hidden {
+    display: none;
+}
+
+
+/* Padding for header */
+header {
+    padding: 10px 20px;
+}
+
+/* Padding for container */
+.container {
+    padding: 20px;
+}
+
+/* Padding for the card */
+.card {
+    margin-top: 20px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Padding for the image */
+.img-fluid {
+    margin-bottom: 20px;
+}
+
+/* Padding for the card overlay text */
+.card-img-overlay {
+    padding: 20px;
+}
+
+/* Padding for nav items */
+.nav-item {
+    padding: 0 10px;
+}
+
+/* Custom padding for button */
+.btn {
+    margin-left: 10px;
+}
+
+
+
+
+/* search */
+/* ourservices */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #fef5f7;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.logo {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+nav a {
+    margin-right: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+nav a:last-child {
+    margin-right: 0;
+}
+
+.user-icon {
+    font-size: 20px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.location-icon {
+    margin-left: 10px;
+}
+
+.search-bar {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.filter-icon {
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.categories button {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.categories .active {
+    background-color: #fda4af;
+    color: #fff;
+}
+
+.technicians {
+    margin-top: 20px;
+}
+
+.technician-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.technician-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+}
+
+.technician-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.info {
+    margin-top: 10px;
+}
+
+.info p {
+    margin-bottom: 5px;
+}
+
+
+.search-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.filter-btn {
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin: 5px;
+}
+.tech-card {
+    text-align: center;
+}
+.tech-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.star-rating {
+    color: #ffcc00;
+}
+
+/* profile_em */
+.profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.upload-btn {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+.custom-label {
+    font-weight: bold;
+}
+
+
+ /* login */
+ 
+ /* .wrapper{
+
+ } */
+
+
+
